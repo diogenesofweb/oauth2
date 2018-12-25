@@ -1,0 +1,15 @@
+.btn-large {
+  text-transform: none;
+  margin: 10px;
+}
+.img {
+  width: 20%;
+}
+.flex {
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}

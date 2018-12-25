@@ -1,0 +1,67 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="/public/style.css" />
+    <title>OAuth2</title>
+  </head>
+  <body class="green lighten-4">
+    <header>
+      <nav>
+        <div class="nav-wrapper green darken-3">
+          <div class="container">
+            <a href="#" class="brand-logo right">Auth</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><a href="/">Home</a></li>
+              <li><a href="/profile">Profile</a></li>
+              <li><a href="/auth/login">Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="flex">
+        <a
+          href="/auth/google"
+          class="btn-large red darken-2
+      "
+          ><i class="fab fa-google-plus-g left"></i>Sign in with Google</a
+        >
+        <a
+          href="/auth/facebook"
+          class="btn-large blue darken-4
+      "
+          ><i class="fab fa-facebook left"></i>Sign in with Facebook</a
+        >
+        <a
+          href="/auth/github"
+          class="btn-large grey darken-2
+      "
+          ><i class="fab fa-github left"></i>Sign in with GitHub</a
+        >
+        <!--
+        <a
+          href="/auth/twitter"
+          class="btn-large blue
+      "
+          ><i class="fab fa-twitter left"></i>Sign in with Twitter</a
+        >
+        -->
+      </div>
+    </section>
+  </body>
+</html>
